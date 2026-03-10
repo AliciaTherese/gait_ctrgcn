@@ -1,0 +1,67 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.swp
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+gaitenv/
+env/
+.venv/
+
+# =========================
+# Dataset (HealthGait)
+# =========================
+dataset/
+Health_Gait/
+data/
+
+# =========================
+# Model weights
+# =========================
+*.pth
+*.pt
+*.ckpt
+*.onnx
+models/
+
+# =========================
+# Training outputs
+# =========================
+runs/
+outputs/
+results/
+checkpoints/
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Large generated files
+# =========================
+*.mp4
+*.avi
+*.png
+*.jpg
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
